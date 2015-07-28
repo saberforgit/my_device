@@ -38,7 +38,7 @@ public class MainActivity extends BaseDeviceActivity {
                     str.append("==battery" +"level:"+level+"=temperature:"+temperature);
                 case DeviceManager.AvailRamMemory_INFO:
                     Long availRam = Long.parseLong((String) msg.obj);
-                    textView.setText("=="+availRam);
+                    textView.setText("="+availRam);
                     default:
             }
         }
