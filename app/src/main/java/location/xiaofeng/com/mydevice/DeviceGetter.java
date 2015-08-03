@@ -384,6 +384,7 @@ public class DeviceGetter {
         return true;
         }
         return  false;
+
     }
 
 

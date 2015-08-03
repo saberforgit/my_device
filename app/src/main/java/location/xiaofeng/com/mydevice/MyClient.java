@@ -5,4 +5,7 @@ package location.xiaofeng.com.mydevice;
  */
 public class MyClient {
 
+    public void myClient(){
+
+    }
 }
